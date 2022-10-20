@@ -1,4 +1,4 @@
-import gameSavingLoader from '../gameSavingLoader.js';
+import gameSavingLoader from '../gameSavingLoader';
 
 test('test promise chain', (done) => {
   const result = gameSavingLoader.load().then((value) => {
